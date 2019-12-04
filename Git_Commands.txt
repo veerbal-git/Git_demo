@@ -74,6 +74,21 @@ i.e -> *.log
 
 git add .gitignore
 git commit -m "added .gitignore file"
-===========================
+===========git ssh============
+goto home dir & .ssh folder if not create create it
+use below command to generate ssh key
+
+ssh-keygen -t rsa -C "veerbal.singh@nice.com"
+
+open the id_rsa.pub file & copy RSA key
+
+goto github.com, add the SSH key into Session/ssh/new SSH SSH key
+
+then verify connectivity from you machine
+
+ssh -T git@github.com
+
+===============================
+
 
 
