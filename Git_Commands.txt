@@ -28,3 +28,7 @@ git add .   --> Adding All Changed Files to stage, if want to commit them.
 git reset HEAD file-name --> Unstage File from stag
 
 git checkout -- file-name -->Backout Working Directory/file Changes
+
+git log --> To check/history of commit.
+
+git log --oneline --graph --decorate --color
