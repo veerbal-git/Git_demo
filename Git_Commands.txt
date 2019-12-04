@@ -32,3 +32,48 @@ git checkout -- file-name -->Backout Working Directory/file Changes
 git log --> To check/history of commit.
 
 git log --oneline --graph --decorate --color
+
+======== remove file ===
+
+git rm <file-name>
+git commit -m "remove file-name"
+
+If file is deleted by user not through git command
+
+rm file-name   -> then
+
+git add -u
+git commit -m "remove file-name"
+
+===========moving file====
+
+mkdir web
+
+git mv index.html web
+
+once file is moved to other web folder using git will still track the file
+! git status output
+!
+renamed: index.html ->web/index.html
+!
+
+If file is moveby user not through git command
+
+mv file-name <folder-name>   -> then
+
+git add -u
+git commit -m "moved file-name"
+
+=============Ingore file ===
+
+If we want to ingore file to get track/replicate in git repo.
+
+.gitignore  --> Edit this file and add the file name or *.(ext) or *.log (file type)
+
+i.e -> *.log
+
+git add .gitignore
+git commit -m "added .gitignore file"
+===========================
+
+
