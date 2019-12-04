@@ -22,3 +22,9 @@ git commit -m "message"
 git status -- Imp
 
 git commit -am "adding commit with -a as add to stage and commit -m for message"
+
+git add .   --> Adding All Changed Files to stage, if want to commit them.
+
+git reset HEAD file-name --> Unstage File from stag
+
+git checkout -- file-name -->Backout Working Directory/file Changes
