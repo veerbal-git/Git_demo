@@ -1,0 +1,7 @@
+ls
+pwd
+git init
+git status
+clear
+git add file-name
+git commit -m "message"
