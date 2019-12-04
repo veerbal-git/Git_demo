@@ -1,8 +1,24 @@
 ls
 pwd
+clear  - Clear screen
+
 git init
+
+====global config =====
+
+git config -global user.name "your name" - basic config required [optional]. 
+git config -global user.email "your email" - basic config required [optional]. 
+
+git config --global --list
+
+we can test .gitconfig file to check git global config.
+=> cat ~/.gitconfig
+======================
+
+git init [project-name] -- Name be used to create project
 git status
-clear
 git add file-name
 git commit -m "message"
 git status -- Imp
+
+git commit -am "adding commit with -a as add to stage and commit -m for message"
